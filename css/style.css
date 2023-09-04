@@ -4,12 +4,13 @@
 
 .navbox {
     position: fixed;
+    background-color: #ffffff;
 
 }
 
 .mainImg {
     width: auto;
-    height: 660px;
+    height: 590px;
 }
 
 
@@ -25,7 +26,8 @@
 .icon {
     width: 30%;
     margin-left: 80%;
-margin-top: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .navBar {
@@ -41,9 +43,10 @@ margin-top: 1%;
     font-size: 20px;
     font-family: 400;
     color: black;
+    cursor: pointer;
 }
 
-.navBar:hover {
+.nav:hover {
     color: #548776;
     font-size: 21px;
     font-family: 500;
@@ -57,24 +60,120 @@ margin-top: 1%;
 .headerBox {
     background: #E6E8DD;
     border-radius: 20px;
+    padding: 4%;
 }
 
 .headerTitle {
     font-size: 70px;
     line-height: 100%;
     /* margin-bottom: 12%; */
+    font-weight: bold;
 }
 
 .p {
     margin-top: 3%;
     color: #7D7676;
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
+
 }
 
-.box {
+.btnBox {
     margin-top: 3%;
 }
-.btnBox{
-    margin-top: 3%;
+
+.inputDiv {
+    width: 78%;
+    height: 8%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-top: 4%;
+    display: flex;
+    align-items: center;
+
+}
+
+.input {
+    width: 60%;
+    height: 8%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 2%;
+}
+
+.searchButton {
+    width: 10%;
+    height: 5%;
+    margin-left: 18%;
+    position: absolute;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #548776;
+    color: #ffffff;
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.searchButton:hover {
+    background-color: #548776dc;
+    font-size: 17px;
+    transition: 0.5s;
+}
+
+.btnBox {
+    margin-top: 4%;
+}
+
+.moreButton {
+    width: 30%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #548776;
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.moreButton:hover {
+    width: 30%;
+    height: 41px;
+    background-color: #548776dc;
+    color: #ffffff;
+    transition: 0.5s;
+    font-size: 17px;
+}
+
+
+.bodyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerText {
+    text-align: center;
+    font-size: 40px;
+}
+
+.pText {
+    text-align: center;
+    color: #7D7676;
+    font-size: 20px;
+}
+
+.bodyDiv {
+    margin-top: -5%;
+
+
 }
