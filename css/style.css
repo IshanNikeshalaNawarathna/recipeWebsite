@@ -71,7 +71,7 @@
 }
 
 .p {
-    margin-top: 3%;
+    margin-top: 8%;
     color: #7D7676;
     font-size: 20px;
     text-align: justify;
@@ -89,7 +89,7 @@
     outline: none;
     background-color: #ffffff;
     border-radius: 30px;
-    margin-top: 4%;
+    margin-top: 8%;
     display: flex;
     align-items: center;
 
@@ -129,7 +129,7 @@
 }
 
 .btnBox {
-    margin-top: 4%;
+    margin-top: 8%;
 }
 
 .moreButton {
@@ -155,11 +155,11 @@
 }
 
 
-.bodyBox {
+/* .bodyBox {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+} */
 
 .headerText {
     text-align: center;
@@ -173,7 +173,24 @@
 }
 
 .bodyDiv {
-    margin-top: -5%;
+/* background:#7D7676; */
+/* padding: 5%; */
+margin-top: 5%;
+
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mainCircle {
+    width: 80px;
+    height: 80px;
+    background-color: #E6E8DD;
+    border-radius: 100%;
 
 
 }
