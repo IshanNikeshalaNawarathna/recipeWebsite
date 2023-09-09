@@ -232,7 +232,7 @@ h6 {
 
 .deshiBox {
   margin-top: -13%;
-  margin-left: 25px;
+  margin-left: 20px;
 }
 
 .heartBox {
@@ -240,44 +240,6 @@ h6 {
   background: #ffff;
   border-radius: 12px;
 }
-
-@media (max-width: 568px) {
-  .carousel {
-    -webkit-padding-after: 52px;
-    padding-block-end: 52px;
-    /* margin-top: 20%; */
-  }
-
-  .container {
-    margin-top: 45%;
-  }
-
-  .carousel img {
-    max-width: 100%;
-    -o-object-fit: cover;
-    object-fit: cover;
-    /* height: 60%; */
-  }
-
-  .straBox {
-    width: 50%;
-    height: 8vh;
-    /* height: 5vh; */
-    /* background-color: #800000; */
-  }
-
-  .deshiBox {
-    margin-top: -13%;
-    margin-left: 25px;
-  }
-
-  .heartBox {
-    padding: 8%;
-    background: #ffff;
-    border-radius: 12px;
-  }
-}
-
 .readButton {
   background: #548776;
   outline: none;
@@ -298,3 +260,76 @@ h6 {
   width: 41%;
   height: 6vh
 }
+
+@media (max-width: 568px) {
+  .carousel {
+    -webkit-padding-after: 52px;
+    padding-block-end: 52px;
+    /* margin-top: 20%; */
+  }
+
+  .container {
+    margin-top: 45%;
+  }
+
+  .carousel img {
+    max-width: 70%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    /* height: 60%; */
+  }
+
+  .straBox {
+    width: 50%;
+    height: 8vh;
+    /* height: 5vh; */
+    /* background-color: #800000; */
+  }
+
+  .deshiBox {
+    margin-top: -22%;
+    margin-left: 27%;
+  }
+
+  .heartBox {
+    padding: 2%;
+    background: #ffff;
+    border-radius: 12px;
+  }
+  .carousel .item {
+    position: absolute;
+    max-width: 418px;
+    background: #F6F7F2;
+    height: 55%;
+    margin-inline: var(--container-padding-horizontal);
+    opacity: 0;
+    will-change: transform, opacity;
+    -webkit-animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+    animation: carousel-animate 27s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+    border-radius: 20px;
+    padding: 2%;
+    margin-top: 32%;
+
+  }
+  .readButton {
+    background: #548776;
+    outline: none;
+    border: none;
+    color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 5vh;
+    margin-top: 2%;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .readButton:hover{
+    background: #548776e3;
+    width: 41%;
+    height: 6vh
+  }
+}
+
