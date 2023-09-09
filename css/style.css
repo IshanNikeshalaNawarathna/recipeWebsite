@@ -200,3 +200,19 @@
     font-size: 40px;
     font-weight: bold;
 }
+.productbox{
+    background: #EBF7F3;
+    padding: 4%;
+}
+.newp{
+    font-size: 18px;
+    font-weight: 400;
+    color:#7D7676 ;
+ 
+}
+.menuButton{
+ border-color: #548776;
+   background-color: #ffffff;
+   outline: none;
+border-radius: 15px;
+}
