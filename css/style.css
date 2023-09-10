@@ -190,29 +190,108 @@
     align-items: center;
 
 }
-.p1{
+
+.p1 {
     color: #7D7676;
     font-size: 18px;
 }
 
 
-.mainText{
+.mainText {
     font-size: 40px;
     font-weight: bold;
 }
-.productbox{
-    background: #EBF7F3;
-    padding: 4%;
+
+.productbox {
+    padding: 10%;
+    margin-top: -7%;
 }
-.newp{
+.product{
+    background: #EBF7F3;
+    margin-top: -10%;
+}
+
+.newp {
     font-size: 18px;
     font-weight: 400;
-    color:#7D7676 ;
- 
+    color: #7D7676;
+
 }
-.menuButton{
- border-color: #548776;
-   background-color: #ffffff;
-   outline: none;
-border-radius: 15px;
+
+.menuButton {
+    padding: 5px;
+    border: none;
+    outline: none;
+    border: solid;
+    border-radius: 15px;
+    border-color: #548776;
+    border-width: 1px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.menuButton:hover {
+    background-color: #548776;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.productBody{
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+.img1{
+    width: 150px;
+    margin-top: 10%;
+    height: auto;
+    margin-left: 20%;
+}
+.cartButton{
+    width: 100%;
+    border: none;
+    outline: none;
+    border: solid;
+    border-radius: 15px;
+    border-color: #548776;
+    border-width: 1px;
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.cartButton:hover {
+    background-color: #548776;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.buttonBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10%;
+}
+.menuAllButton{
+    background-color: #548776;
+    color: #ffffff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    width: 100%;
+    height: 7vh;
+}
+.headerBody{
+    margin-top: -10%;
+}
+.nextButton{
+    background-color: #ffffff;
+    border: none;
+    outline: none;
+    border: solid;
+    border-radius: 15px;
+    border-color: #548776;
+    border-width: 1px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
