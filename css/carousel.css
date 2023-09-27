@@ -138,6 +138,8 @@ h6 {
   place-items: center;
   height: 100%;
   margin-top: 20%;
+/* overflow-x: hidden; */
+/* overflow-y: hidden; */
 
 }
 
