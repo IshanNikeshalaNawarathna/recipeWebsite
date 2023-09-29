@@ -1,5 +1,5 @@
 .body {
-   
+
     overflow-x: hidden;
 }
 
@@ -404,7 +404,119 @@
         margin-top: 3%;
 
     }
+
     .body {
         overflow-x: hidden;
     }
+}
+
+.imgbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5%;
+ 
+}
+
+.img {
+    width: 80%;
+    height: auto;
+    border-radius: 30px;
+
+}
+.searchDiv {
+    width: 40%;
+    height: 8%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: 10%;
+}
+.searchInput{
+    width: 70%;
+    height: 12%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 2%;
+}
+.signinButton{
+    width: 24%;
+    height: 12%;
+    /* margin-left: 18%; */
+    /* position: absolute; */
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    background-color: #548776;
+    color: #ffffff;
+    font-weight: 400;
+    transition: 0.5s;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.signinButton:hover {
+    background-color: #548776dc;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.textBox{
+    position: absolute;
+    margin-top: -6%;
+
+}
+.textBox1{
+    position: absolute;
+    /* margin-top: -6%; */
+
+}
+.footer{
+    background: #E6E8DD;
+    margin-top: 5%;
+    border-radius: 10px;
+    padding: 10%;
+}
+.p1{
+    margin-top: 1%;
+    color: #7D7676;
+    font-size: 17px;
+    /* text-align: justify; */
+}
+.boxIcon{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.boxIcon:hover{
+    background-color: #548776;
+    color: #ffffff;
+    transition: 0.5s;
+}
+.iconimg{
+    width: 20px;
+    height: auto;
+}
+.footerText{
+    text-decoration: none;
+    color: #7D7676;
+}
+.footerText:hover{
+    color: #7D7676; 
 }
